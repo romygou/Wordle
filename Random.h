@@ -9,7 +9,6 @@ namespace cs31
 {
     
 // This class provides a random number which by default will be one of 26 different values between 0-25 inclusive.
-// This class is completely finished. CS 31 students have no work to do here.
 class Random
 {
 public:
