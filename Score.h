@@ -1,10 +1,5 @@
 //
 //  Score.h
-//  Bunco
-//
-//  Created by Howard Stahl on 2/21/22.
-//  Copyright © 2022 Howard Stahl. All rights reserved.
-//
 
 #ifndef SCORE_H
 #define SCORE_H
@@ -23,13 +18,13 @@ class Score
 public:
     // By default, a Score will hold all WRONG ANSWER's
     Score();
-    // TODO create the ANSWER array from the supplied Move and answer
+    // create the ANSWER array from the supplied Move and answer
     Score( Move move, Move answer );
     
     // called whenever a Score is displayed
     std::string to_string() const;
     
-    // TODO is the ANSWER array all RIGHT ANSWER's?
+    // is the ANSWER array all RIGHT ANSWER's?
     bool isExactMatch() const;
 
     // trivial getter
