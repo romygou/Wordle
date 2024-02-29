@@ -19,8 +19,6 @@ namespace cs31
  // The Singleton class defines the GetInstance method that serves as an
  // alternative to constructor and lets clients access the same instance
  // of this class over and over.
- // This class is completely finished.
- // CS 31 students have no work to do here
  class Singleton
  {
  public:
@@ -44,7 +42,7 @@ namespace cs31
     bool lookup( int index, std::string s );
     std::string valueAt( int index, int spot );
     
-    //  the destructor to delete whatever was newed
+    // the destructor to delete whatever was newed
     ~Singleton();
     
     // The Singleton's constructor should always be private to prevent direct
