@@ -1,10 +1,5 @@
 //
 //  Score.cpp
-//  Bunco
-//
-//  Created by Howard Stahl on 2/21/22.
-//  Copyright © 2022 Howard Stahl. All rights reserved.
-//
 
 #include "Score.h"
 #include <stdexcept>
