@@ -15,7 +15,6 @@ namespace cs31
 // a 5 letter word is a move. by default, each letter of the word is an invalid.
 Move::Move()
 {
-    // this code is really not needed since the default constructor will do all this work but I am explicitly showing it for CS 31 students
     Piece p;  // invalid piece
     for( int i = 0; i < REQUIREDLENGTH; i++)
     {
