@@ -20,8 +20,8 @@ public:
     // by default, a move will be invalid
     Move();
     
-    // TODO create the Pieces for this Move from the supplied word
-    // TODO throw logic_error if the supplied word is too short or too long
+    // create the Pieces for this Move from the supplied word
+    // throw logic_error if the supplied word is too short or too long
     void  setPieces( std::string s );
     
     // various different ways to establish one Piece of this Move
