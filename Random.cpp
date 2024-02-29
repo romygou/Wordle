@@ -1,5 +1,5 @@
 //
-//  Die.cpp
+//  Random.cpp
 //
 
 #include "Random.h"
