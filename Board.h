@@ -16,7 +16,6 @@ namespace cs31
     // Wordle game progresses
     // It holds an array of Moves and Scores fed to it with calls to
     // endRound that get printed later with a call to display
-    // CS 31 students have TODO methods to complete documented below
     class Board
     {
     public:
@@ -24,11 +23,11 @@ namespace cs31
         // save this Move and Score which will get printed later
         void endRound( Move m, Score s );
         
-        // TODO trivial getter
+        // trivial getter
         int getCurrentRound() const;
-        // TODO acquire a Move for a particular round of play, throw logic_error if the round is invalid or if the round has not yet been played
+        // acquire a Move for a particular round of play, throw logic_error if the round is invalid or if the round has not yet been played
         Move getMoveForRound( int round ) const;
-        // TODO acquire a Score for a particular round of play, throw logic_error if the round is invalid or if the round has not yet been played
+        // acquire a Score for a particular round of play, throw logic_error if the round is invalid or if the round has not yet been played
         Score getScoreForRound( int round ) const;
         
         // print this Board
