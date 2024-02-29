@@ -11,7 +11,7 @@
 namespace cs31
 {
 
-// This class represents a single letter played in Wordle and works with the LETTER enumeration. This class is completely finished, CS 31 students have no work to do here.
+// This class represents a single letter played in Wordle and works with the LETTER enumeration.
 class Piece
 {
 public:
