@@ -18,7 +18,6 @@ namespace cs31
 
 // The Wordle object plays the game
 // It holds a Board, a winning Move, the current Score and a round count
-// CS 31 students have TODO methods to complete documented below
 class Wordle
 {
 public:
@@ -40,10 +39,10 @@ public:
     // convert the entered word into a Move object
     Move  play( std::string turn );
     
-    // TODO update the Board with the passed Move parameter
+    // update the Board with the passed Move parameter
     Score endRound( Move m );
     
-    // TODO construct a GAMEOUTCOME based on the state of this Wordle game
+    // construct a GAMEOUTCOME based on the state of this Wordle game
     GAMEOUTCOME  determineGameOutcome( ) const;
     
     // stringify the current GAMEOUTCOME value
