@@ -13,8 +13,6 @@ namespace cs31
 
 // This DictionarySegment class provides a chunk of the Dictionary
 // database for a particular starting letter.
-// This class is completely finished.
-// CS 31 students have no work to do here
 class DictionarySegment
 {
 public:
