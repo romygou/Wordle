@@ -14,8 +14,6 @@ namespace cs31
 // This Dictionary class provides Wordle the ability to
 // search the available database of five letter words as
 // well as pick a random word from the database.
-// This class is completely finished.
-// CS 31 students have no work to do here
 class Dictionary
 {
 public:
